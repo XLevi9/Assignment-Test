@@ -1,10 +1,9 @@
-# 🎮 Kaigan Unity Developer Assignment
 ## Mini Avatar Customization System
 
 ### 📺 Demo Video
-[![Avatar Customization Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/fnJFEvCQi3E?si=YSycFz-9XATnw3RV)
+[![Avatar Customization Demo](https://img.youtube.com/vi/fnJFEvCQi3E/0.jpg)](https://youtu.be/fnJFEvCQi3E?si=YSycFz-9XATnw3RV)
 
-*Click to watch the full demo (1 minute)*
+*Click to watch the full demo*
 
 ---
 
