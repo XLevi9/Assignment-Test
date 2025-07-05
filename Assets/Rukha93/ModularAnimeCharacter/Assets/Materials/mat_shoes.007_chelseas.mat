@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: mat_shoes.007_chelseas
   m_Shader: {fileID: -6465566751694194690, guid: 7e0b5bad5c3d5464fa13085f40bcdbdb, type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: 78779fe5ad8a2b44bbe056a7e04ce33a, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
@@ -50,26 +50,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8a31d20d12ce8bf4db7be475b31e550c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ColorRamp:
-        m_Texture: {fileID: 2800000, guid: 72cf6e7dce751fa42964459242083fd0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -82,70 +62,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: fde2730f6873e6d41bea1940f25e86eb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _BUILTIN_QueueControl: 0
-    - _BUILTIN_QueueOffset: 0
-    - _Blend: 0
-    - _BumpScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _EnvironmentReflections: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 0
     - _Mask_Factor: 0.6
     - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 0
-    - _Outline_Thickness: 0.4
-    - _Parallax: 0.02
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
     - _RimThickness: 0.607
-    - _Smoothness: 1
     - _SmoothnessMultiplier: 0.15
-    - _SmoothnessTextureChannel: 0
-    - _Smoothstep_Factor: 0.2
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _Thickness: 0.492
-    - _UVSec: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
     m_Colors:
-    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BlackTone: {r: 0.20379585, g: 0.18903527, b: 0.22641507, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color_A: {r: 0.7264151, g: 0.52475655, b: 0.4488697, a: 0}
     - _Color_A_1: {r: 0.13989337, g: 0.13599145, b: 0.1509434, a: 0}
     - _Color_A_2: {r: 0.5566038, g: 0.43638018, b: 0.375445, a: 0}
@@ -155,11 +79,6 @@ Material:
     - _Color_C: {r: 1, g: 0.6325448, b: 0.3537736, a: 0}
     - _Color_C_1: {r: 0, g: 0, b: 0, a: 0}
     - _Color_C_2: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MaskRemap: {r: 0.3, g: 1, b: 0, a: 0}
-    - _Outline_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
-    - _RimColor: {r: 0.6745098, g: 0.6745098, b: 0.6745098, a: 1}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &59102411002321044
