@@ -1,9 +1,9 @@
 ## Mini Avatar Customization System
 
 ### 📺 Demo Video
-[![Avatar Customization Demo](https://img.youtube.com/vi/fnJFEvCQi3E/0.jpg)](https://youtu.be/fnJFEvCQi3E?si=YSycFz-9XATnw3RV)
+[![Avatar Customization Demo](https://img.youtube.com/vi/fnJFEvCQi3E/maxresdefault.jpg)](https://youtu.be/fnJFEvCQi3E)
 
-*Click to watch the full demo*
+*🎬 Click to watch the full demo*
 
 ---
 
