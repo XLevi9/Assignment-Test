@@ -1,16 +1,35 @@
 using UnityEngine;
 
-public class AvatarPartData : MonoBehaviour
+/// <summary>
+/// ScriptableObject that defines avatar part data for the customization system.
+/// This is the core data structure that holds mesh, materials, and optimization settings.
+/// 
+/// Design Pattern: Data-Driven Architecture
+/// </summary>
+[CreateAssetMenu(fileName = "New Avatar Part", menuName = "Avatar/Avatar Part")]
+public class AvatarPartData : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("Part Info")]
+    public string avatarPartName;
+    public AvatarPartType avatarPartType;
+    public Mesh avatarPartMesh;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Materials")]
+    public Material[] materials;
+
+    [Header("Optimization")]
+    public bool useGPUInstancing = true;
+}
+
+/// <summary>
+/// Enum defining the available avatar part categories.
+/// Extensible design allows easy addition of new part types.
+/// </summary>
+public enum AvatarPartType
+{
+    Hair,
+    Top,
+    Bottom,
+    Shoes,
+    Accessory
 }
